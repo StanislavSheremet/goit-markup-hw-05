@@ -263,6 +263,19 @@ ul {
 }
 
 /*Преимущества работы с нами*/
+.advantage-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantage-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .hidden-title {
   position: absolute;
   width: 1px;
@@ -322,15 +335,16 @@ ul {
 }
 
 /* Чем мы занимаемся */
+.production-section {
+  padding-bottom: 94px;
+}
+
 .production-container {
-  border-top: 1px solid #ececec;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .production-title {
@@ -380,6 +394,20 @@ ul {
 }
 
 /*Наша команда*/
+.team-section {
+  background-color: var(--secondary-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -446,10 +474,6 @@ ul {
   fill: currentColor;
 }
 
-.team-section {
-  background-color: var(--secondary-background-color);
-}
-
 .development-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -472,6 +496,19 @@ ul {
 }
 
 /* Постоянные клиенты */
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .clients-list {
   justify-content: space-between;
   display: flex;
@@ -715,6 +752,19 @@ ul {
 }
 
 /* Фильтр продукции */
+.product-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.product-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .product-list {
   margin-bottom: 50px;
   display: flex;
